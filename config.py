@@ -63,9 +63,9 @@ class Config(object):
     
     # Url Shortner Information 
     TECH_VJ = bool(environ.get('TECH_VJ', True)) # Set False If you want shortlink off else True
-    TECH_VJ_URL = environ.get('TECH_VJ_URL', '') # your shortlink url domain or url without https://
-    TECH_VJ_API = environ.get('TECH_VJ_API', '') # your url shortner api
-    TECH_VJ_TUTORIAL = os.environ.get("TECH_VJ_TUTORIAL", "")
+    TECH_VJ_URL = environ.get('TECH_VJ_URL', 'onepagelink.in') # your shortlink url domain or url without https://
+    TECH_VJ_API = environ.get('TECH_VJ_API', '66950884448d68d19c9545a32bbae554e6136cd5') # your url shortner api
+    TECH_VJ_TUTORIAL = os.environ.get("TECH_VJ_TUTORIAL", "https://t.me/Kc_Bypass/2")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
